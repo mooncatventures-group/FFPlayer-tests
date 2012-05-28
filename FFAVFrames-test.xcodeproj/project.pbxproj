@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30D366C71573C9EA003471CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D366C61573C9EA003471CC /* UIKit.framework */; };
+		30D366C91573C9EA003471CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D366C81573C9EA003471CC /* Foundation.framework */; };
+		30D366CB1573C9EA003471CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D366CA1573C9EA003471CC /* CoreGraphics.framework */; };
+		30D366D11573C9EA003471CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30D366CF1573C9EA003471CC /* InfoPlist.strings */; };
+		30D366D31573C9EA003471CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D366D21573C9EA003471CC /* main.m */; };
+		30D366D71573C9EA003471CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D366D61573C9EA003471CC /* AppDelegate.m */; };
+		30D366EA1573CBD8003471CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D366E91573CBD8003471CC /* AVFoundation.framework */; };
+		30D366EC1573CBE1003471CC /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D366EB1573CBE1003471CC /* CoreVideo.framework */; };
+		30D367051573D1DE003471CC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30D367041573D1DE003471CC /* AssetsLibrary.framework */; };
+		30E35AFD1573F87B00A9A1DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E35AFB1573F87B00A9A1DA /* ViewController.m */; };
+		30E35AFE1573F87B00A9A1DA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30E35AFC1573F87B00A9A1DA /* ViewController.xib */; };
+		30E35B2D1573F8F400A9A1DA /* FFmpegDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E35B2C1573F8F400A9A1DA /* FFmpegDecoder.framework */; };
+		30E35B311573F98700A9A1DA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E35B301573F98700A9A1DA /* CoreImage.framework */; };
+		30E35B361573F9D200A9A1DA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E35B351573F9D200A9A1DA /* CoreMedia.framework */; };
+		30E35B521574056600A9A1DA /* FFPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E35B511574056600A9A1DA /* FFPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30D366C21573C9EA003471CC /* FFAVFrames-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FFAVFrames-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30D366C61573C9EA003471CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30D366C81573C9EA003471CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30D366CA1573C9EA003471CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30D366CE1573C9EA003471CC /* FFAVFrames-test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFAVFrames-test-Info.plist"; sourceTree = "<group>"; };
+		30D366D01573C9EA003471CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30D366D21573C9EA003471CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30D366D41573C9EA003471CC /* FFAVFrames-test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFAVFrames-test-Prefix.pch"; sourceTree = "<group>"; };
+		30D366D51573C9EA003471CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30D366D61573C9EA003471CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30D366E91573CBD8003471CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		30D366EB1573CBE1003471CC /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		30D367041573D1DE003471CC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		30E35AFA1573F87B00A9A1DA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30E35AFB1573F87B00A9A1DA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30E35AFC1573F87B00A9A1DA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		30E35B2C1573F8F400A9A1DA /* FFmpegDecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFmpegDecoder.framework; sourceTree = "<group>"; };
+		30E35B301573F98700A9A1DA /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		30E35B351573F9D200A9A1DA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		30E35B511574056600A9A1DA /* FFPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FFPlayer.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30D366BF1573C9EA003471CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E35B521574056600A9A1DA /* FFPlayer.framework in Frameworks */,
+				30E35B361573F9D200A9A1DA /* CoreMedia.framework in Frameworks */,
+				30D366CB1573C9EA003471CC /* CoreGraphics.framework in Frameworks */,
+				30E35B311573F98700A9A1DA /* CoreImage.framework in Frameworks */,
+				30D366EA1573CBD8003471CC /* AVFoundation.framework in Frameworks */,
+				30E35B2D1573F8F400A9A1DA /* FFmpegDecoder.framework in Frameworks */,
+				30D367051573D1DE003471CC /* AssetsLibrary.framework in Frameworks */,
+				30D366EC1573CBE1003471CC /* CoreVideo.framework in Frameworks */,
+				30D366C71573C9EA003471CC /* UIKit.framework in Frameworks */,
+				30D366C91573C9EA003471CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30D366B71573C9EA003471CC = {
+			isa = PBXGroup;
+			children = (
+				30D366CC1573C9EA003471CC /* FFAVFrames-test */,
+				30D366C51573C9EA003471CC /* Frameworks */,
+				30D366C31573C9EA003471CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30D366C31573C9EA003471CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D366C21573C9EA003471CC /* FFAVFrames-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D366C51573C9EA003471CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E35B511574056600A9A1DA /* FFPlayer.framework */,
+				30E35B351573F9D200A9A1DA /* CoreMedia.framework */,
+				30E35B301573F98700A9A1DA /* CoreImage.framework */,
+				30E35B2C1573F8F400A9A1DA /* FFmpegDecoder.framework */,
+				30D367041573D1DE003471CC /* AssetsLibrary.framework */,
+				30D366EB1573CBE1003471CC /* CoreVideo.framework */,
+				30D366E91573CBD8003471CC /* AVFoundation.framework */,
+				30D366C61573C9EA003471CC /* UIKit.framework */,
+				30D366C81573C9EA003471CC /* Foundation.framework */,
+				30D366CA1573C9EA003471CC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30D366CC1573C9EA003471CC /* FFAVFrames-test */ = {
+			isa = PBXGroup;
+			children = (
+				30E35AFA1573F87B00A9A1DA /* ViewController.h */,
+				30E35AFB1573F87B00A9A1DA /* ViewController.m */,
+				30E35AFC1573F87B00A9A1DA /* ViewController.xib */,
+				30D366D51573C9EA003471CC /* AppDelegate.h */,
+				30D366D61573C9EA003471CC /* AppDelegate.m */,
+				30D366CD1573C9EA003471CC /* Supporting Files */,
+			);
+			path = "FFAVFrames-test";
+			sourceTree = "<group>";
+		};
+		30D366CD1573C9EA003471CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30D366CE1573C9EA003471CC /* FFAVFrames-test-Info.plist */,
+				30D366CF1573C9EA003471CC /* InfoPlist.strings */,
+				30D366D21573C9EA003471CC /* main.m */,
+				30D366D41573C9EA003471CC /* FFAVFrames-test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30D366C11573C9EA003471CC /* FFAVFrames-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30D366E01573C9EB003471CC /* Build configuration list for PBXNativeTarget "FFAVFrames-test" */;
+			buildPhases = (
+				30D366BE1573C9EA003471CC /* Sources */,
+				30D366BF1573C9EA003471CC /* Frameworks */,
+				30D366C01573C9EA003471CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FFAVFrames-test";
+			productName = "FFAVFrames-test";
+			productReference = 30D366C21573C9EA003471CC /* FFAVFrames-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30D366B91573C9EA003471CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = none;
+			};
+			buildConfigurationList = 30D366BC1573C9EA003471CC /* Build configuration list for PBXProject "FFAVFrames-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30D366B71573C9EA003471CC;
+			productRefGroup = 30D366C31573C9EA003471CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30D366C11573C9EA003471CC /* FFAVFrames-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30D366C01573C9EA003471CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D366D11573C9EA003471CC /* InfoPlist.strings in Resources */,
+				30E35AFE1573F87B00A9A1DA /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D366BE1573C9EA003471CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30D366D31573C9EA003471CC /* main.m in Sources */,
+				30D366D71573C9EA003471CC /* AppDelegate.m in Sources */,
+				30E35AFD1573F87B00A9A1DA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30D366CF1573C9EA003471CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30D366D01573C9EA003471CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30D366DE1573C9EB003471CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30D366DF1573C9EB003471CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30D366E11573C9EB003471CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFAVFrames-test/FFAVFrames-test-Prefix.pch";
+				INFOPLIST_FILE = "FFAVFrames-test/FFAVFrames-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30D366E21573C9EB003471CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFAVFrames-test/FFAVFrames-test-Prefix.pch";
+				INFOPLIST_FILE = "FFAVFrames-test/FFAVFrames-test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30D366BC1573C9EA003471CC /* Build configuration list for PBXProject "FFAVFrames-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D366DE1573C9EB003471CC /* Debug */,
+				30D366DF1573C9EB003471CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30D366E01573C9EB003471CC /* Build configuration list for PBXNativeTarget "FFAVFrames-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30D366E11573C9EB003471CC /* Debug */,
+				30D366E21573C9EB003471CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30D366B91573C9EA003471CC /* Project object */;
+}
